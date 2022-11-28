@@ -1,4 +1,5 @@
 import "./useful-links.css"
+import Card from "../card/card";
 
 function UsefulLinks () {
     return (
@@ -11,23 +12,11 @@ function UsefulLinks () {
                 </div>
             </div>
             <div className="cards">
-                <div className="card">
-                    <h1 className="card-caption">Обучение</h1>
-                    <div className="card-description">Обучение работы с  Unity  при помощи оффициальных онлайн вебинаров созданных в самой компании.</div>
-                    <button type="button" className="btn btn-primary card-button">Начать обучение</button>
-                </div>
+                <Card caption="Обучение" description="Обучение работы с  Unity  при помощи оффициальных онлайн вебинаров созданных в самой компании." buttonName="Начать обучение"/>
                 <i/>
-                <div className="card">
-                    <h1 className="card-caption">Сообщество</h1>
-                    <div className="card-description">Обучение работы с  Unity  при помощи оффициальных онлайн вебинаров созданных в самой компании.</div>
-                    <button type="button" className="btn btn-primary card-button">Посетить сообщество</button>
-                </div>
+                <Card caption="Сообщество" description="Обучение работы с  Unity  при помощи оффициальных онлайн вебинаров созданных в самой компании." buttonName="Посетить сообщество"/>
                 <i/>
-                <div className="card">
-                    <h1 className="card-caption">Доп. инструменты</h1>
-                    <div className="card-description">Обучение работы с  Unity  при помощи оффициальных онлайн вебинаров созданных в самой компании.</div>
-                    <button type="button" className="btn btn-primary card-button">Посмотреть инструменты</button>
-                </div>
+                <Card caption="Доп. инструменты" description="Обучение работы с  Unity  при помощи оффициальных онлайн вебинаров созданных в самой компании." buttonName="Посмотреть инструменты"/>
             </div>
         </div>
     );
