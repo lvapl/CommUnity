@@ -2,6 +2,7 @@ import "./app.css"
 import Header from "../header/header";
 import Preview from "../preview/preview";
 import UsefulLinks from "../useful-links/useful-links";
+import MiniBlockNews from "../mini-block-news/mini-block-news";
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <Header/>
             <Preview/>
             <UsefulLinks/>
+            <MiniBlockNews/>
         </div>
     );
 }
