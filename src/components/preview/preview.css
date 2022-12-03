@@ -1,6 +1,15 @@
 .preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: clip;
     border-radius: 0 0 10px 10px;
     width: 100%;
     height: 600px;
     background: #737997;
+}
+
+.preview-title {
+    position: absolute;
+    align-items: center;
 }

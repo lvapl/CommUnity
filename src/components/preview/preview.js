@@ -1,9 +1,13 @@
 import "./preview.css"
 
-function Preview() {
+function Preview({preview, caption, description}) {
     return (
         <div className="preview">
-            <i></i>
+            <img src={preview} alt=""/>
+            <div className="preview-title">
+                <div className="preview-caption">{caption}</div>
+                <div className="preview-description">{description}</div>
+            </div>
         </div>
     );
 }

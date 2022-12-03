@@ -1,5 +1,37 @@
 .mini-block-news {
     display: flex;
+    flex-direction: column;
+    width: 64%;
+    padding: 2% 0;
+
+}
+
+.mini-block-news-cards {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 3% 0;
+    width: 100%;
+}
+
+.mini-block-news-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.mini-block-news-caption {
+    font-weight: 700;
+    font-size: 200%;
+}
+
+.mini-block-news-all-news {
+    border: transparent;
+    height: 100%;
+    background-color: transparent;
+}
+
+hr {
+    margin: 0;
 }
