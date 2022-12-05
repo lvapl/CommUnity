@@ -1,18 +1,26 @@
 .card {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: space-between;
+    align-items: center;
     border: 0;
-    max-width: 30%;
-    min-width: min-content;
+    max-width: 100%;
+    min-width: border-box;
     height: 100%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0 1%;
+    margin: 5% 1%;
 }
 
 
 .card-button {
-    max-width: 60%;
+    max-width: fit-content;
     min-width: fit-content;
     width: 100%;
     margin: 10px 0;
+}
+
+.card-caption,
+.card-description {
+    text-align: center;
 }

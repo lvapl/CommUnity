@@ -4,6 +4,7 @@ import TextImageBlock from "../../components/text-image-block/text-image-block";
 import preview from "./images/Preview.png";
 import image1 from "./images/ImageBlock1.png";
 import image2 from "./images/ImageBlock2.png";
+import {Button} from "react-bootstrap";
 
 
 function Filmpage () {
@@ -16,8 +17,11 @@ function Filmpage () {
                             link={image1}/>
             <TextImageBlock positionImage="left" caption="Ускоренное производство" description="Благодаря общим композициям, ускоренному рендерингу и множеству возможностей автоматизации рутинных операций Unity дает возможность ставить кадры, строить сцены или даже целые серии за несколько дней, а не месяцев."
                             link={image2}/>
-            <TextImageBlock positionImage="down" caption="Удобство командной работы" description="Unity упрощает работу художникам на каждом этапе благодаря возможности синхронизировать проект и мгновенно видеть изменения. Изменения отображаются у всех участников, снижая риск возникновения ошибок и недопониманий."
-                            link=""/>
+            <div className="text-block">
+                <div className="text-block-caption">Удобство командной работы</div>
+                <div className="text-block-description">Unity упрощает работу художникам на каждом этапе благодаря возможности синхронизировать проект и мгновенно видеть изменения. Изменения отображаются у всех участников, снижая риск возникновения ошибок и недопониманий.</div>
+            </div>
+            <Button href="https://unity.com/ru/solutions/film-animation-cinematics">Подробнее</Button>
         </div>
     );
 }

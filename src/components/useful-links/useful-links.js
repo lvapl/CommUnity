@@ -1,4 +1,4 @@
-import "./useful-links.css"
+import "./useful-links.css";
 import Card from "../card/card";
 
 function UsefulLinks () {
@@ -13,10 +13,8 @@ function UsefulLinks () {
             </div>
             <div className="cards">
                 <Card caption="Обучение" description="Обучение работы с  Unity  при помощи оффициальных онлайн вебинаров созданных в самой компании." buttonName="Начать обучение"/>
-                <i/>
                 <Card caption="Сообщество" description="Обучение работы с  Unity  при помощи оффициальных онлайн вебинаров созданных в самой компании." buttonName="Посетить сообщество"/>
-                <i/>
-                <Card caption="Доп. инструменты" description="Обучение работы с  Unity  при помощи оффициальных онлайн вебинаров созданных в самой компании." buttonName="Посмотреть инструменты"/>
+                <Card caption="Инструменты" description="Обучение работы с  Unity  при помощи оффициальных онлайн вебинаров созданных в самой компании." buttonName="Посмотреть инструменты"/>
             </div>
         </div>
     );

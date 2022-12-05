@@ -21,24 +21,34 @@
     height: 100%;
 }
 
-.navigation-panel {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    max-width: 45%;
-    min-width: fit-content;
-    width: 100%;
-    height: 100%;
+.dropdown {
+    background-color: black;
 }
 
-.navigation-button {
-    border: transparent;
-    height: 100%;
-    background-color: transparent;
+.offcanvas {
+    background-color: black;
     color: white;
 }
 
+.offcanvas.offcanvas-end {
+    width: 350px;
+}
 
+.dropdown-menu-dark {
+    background-color: black;
+}
 
+.dropdown-item {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+a,
+a:active,
+a:hover {
+    color: white;
+    text-decoration: none;
+}

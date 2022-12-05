@@ -3,3 +3,32 @@
     flex-direction: column;
     align-items: center;
 }
+
+.filmpage-caption {
+    font-size: 200%;
+    font-weight: 700;
+    max-width: 30%;
+    text-align: center;
+    margin: 3%;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.text-block-caption {
+    text-align: center;
+    font-weight: 700;
+    font-size: 200%;
+    margin: 2%;
+}
+
+.text-block-description {
+    margin: 3%;
+}
+
+.btn {
+    margin: 3%;
+}
