@@ -1,11 +1,12 @@
 import "./header.css"
 import {Navbar, Nav, NavDropdown, Container, Offcanvas} from "react-bootstrap";
+import  {Link} from "react-router-dom";
 
 function Header() {
     return (
-        <Navbar key='xxl' bg="black" variant='dark' expand='xxl' className="mb-3">
-            <Container fluid>
-                <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+        <Navbar key='xxl' bg="black" variant='dark' expand='xxl' className="header">
+            <Container fluid className="inner-header">
+                <Navbar.Brand href=""><Link to="/">CommUnity</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-xxl`} />
                 <Navbar.Offcanvas
                     id={`offcanvasNavbar-expand-xx'`}
@@ -19,10 +20,17 @@ function Header() {
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Nav.Link href="#action1">Home</Nav.Link>
-                            <Nav.Link href="#action2">Link</Nav.Link>
                             <NavDropdown
-                                title="Dropdown"
+                                title="Подробнее об Unity"
+                                id={`offcanvasNavbarDropdown-expand-xxl`}
+                            >
+                                <NavDropdown.Item href=""><Link to="/history">История</Link></NavDropdown.Item>
+                                <NavDropdown.Item href="#action4">Игры</NavDropdown.Item>
+                                <NavDropdown.Item href="#action5"><Link to="/films">Фильмы</Link></NavDropdown.Item>
+                                <NavDropdown.Item href="#action6">Архитектура</NavDropdown.Item>
+                            </NavDropdown>
+                            <NavDropdown
+                                title="Доп. инструменты"
                                 id={`offcanvasNavbarDropdown-expand-xxl`}
                             >
                                 <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
@@ -34,6 +42,8 @@ function Header() {
                                     Something else here
                                 </NavDropdown.Item>
                             </NavDropdown>
+                            <Nav.Link href="#action1">Обучение</Nav.Link>
+                            <Nav.Link href="#action2">Новости</Nav.Link>
                         </Nav>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>
