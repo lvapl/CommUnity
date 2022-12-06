@@ -22,6 +22,7 @@ function Header() {
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
                             <NavDropdown
+                                className="nav-link"
                                 menuVariant="dark"
                                 title="Подробнее об Unity"
                                 id={`offcanvasNavbarDropdown-expand-xxl`}
@@ -32,6 +33,7 @@ function Header() {
                                 <NavDropdown.Item><NavLink className="nav-link" to="/architecture">Архитектура</NavLink></NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown
+                                className="nav-link"
                                 menuVariant="dark"
                                 title="Доп. инструменты"
                                 id={`offcanvasNavbarDropdown-expand-xxl`}
@@ -44,7 +46,7 @@ function Header() {
                                     Something else here
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link>Обучение</Nav.Link>
+                            <Nav.Link><NavLink className="nav-link" to="/learn">Обучение</NavLink></Nav.Link>
                             <Nav.Link>Новости</Nav.Link>
                         </Nav>
                     </Offcanvas.Body>

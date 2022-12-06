@@ -7,7 +7,7 @@ import image2 from "./images/ImageBlock2.png";
 import {Button} from "react-bootstrap";
 
 
-function Filmpage () {
+function Filmpage ({type}) {
     return(
         <div className="filmpage">
             <Preview preview={preview} caption="" description=""/>
@@ -25,5 +25,5 @@ function Filmpage () {
         </div>
     );
 }
-
+//TODO: Сделать кнопку на 2 типа ссылок (на мой сайт через Link и на внешние)
 export default Filmpage;

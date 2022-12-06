@@ -1,18 +1,10 @@
-.caption {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 60%;
-    text-align: center;
-}
-
 @media screen and (min-width: 1350px) {
     .useful-link {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        padding: 5% 0;
+        padding-bottom: 5%;
         width: 64%;
         max-height: 600px;
     }

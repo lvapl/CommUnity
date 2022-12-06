@@ -11,5 +11,5 @@ function Preview({preview, caption, description}) {
         </div>
     );
 }
-
+//TODO: Сделать отображение текста!
 export default Preview;
