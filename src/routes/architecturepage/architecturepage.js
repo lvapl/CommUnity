@@ -6,7 +6,7 @@ import Card from "../../components/card/card";
 function Architecturepage () {
     return(
         <div className="architecturepage">
-            <Preview preview={preview} caption="" description=""/>
+            <Preview preview={preview} caption="Unity для архитектурных решений" description="Unity: от идеи до реальности"/>
             <div className="companies">
                 <div className="companies-caption">Unity доверяют тысячи лидеров и новаторов отрасли</div>
                 <div className="companies-block">

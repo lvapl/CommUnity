@@ -10,7 +10,7 @@ import {Button} from "react-bootstrap";
 function Filmpage ({type}) {
     return(
         <div className="filmpage">
-            <Preview preview={preview} caption="" description=""/>
+            <Preview preview={preview} caption="Unity для фильмов" description="Бесплатный движок Unity обладает всем необходимым для создания фильмов."/>
             <div className="filmpage-caption">Создавайте. Улучшайте. Сотрудничайте.
                 В реальном времени.</div>
             <TextImageBlock positionImage="right" caption="Больше творческой работы" description="Платформа реального времени Unity дает беспрецедентную творческую свободу по сравнению с традиционными процессами рендеринга. Воплощая свои идеи с максимальной скоростью, без многочасового или даже многодневного ожидания готовых рендеров, вы ломаете барьеры на пути к творческой свободе."

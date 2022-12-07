@@ -1,6 +1,7 @@
 .preview {
     display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: 0 0 10px 10px;
     width: 100%;
     height: 600px;
@@ -16,5 +17,20 @@ img {
 
 .preview-title {
     position: absolute;
-    align-items: center;
+    width: 60%;
+    color: white;
+}
+
+.preview-caption {
+    font-size: 300%;
+    font-weight: 700;
+    margin-top: 4%;
+    margin-bottom: 6%;
+    margin-right: 30%;
+    letter-spacing: 0.2em;
+}
+
+.preview-description {
+    font-size: 200%;
+    margin: 5% 50% 5% 0;
 }
