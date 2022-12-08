@@ -6,6 +6,9 @@ import Filmpage from "./routes/filmpage/filmpage";
 import Gamepage from "./routes/gamepage/gamepage";
 import Architecturepage from "./routes/architecturepage/architecturepage";
 import Learnpage from "./routes/learnpage/learnpage";
+import Addtoolspage from "./routes/addtoolspage/addtoolspage";
+import Error404page from "./routes/error404page/error404page";
+import Newspage from "./routes/newspage/newspage";
 
 function App() {
     return (
@@ -17,6 +20,9 @@ function App() {
                 <Route path="/games" element={<Gamepage/>}/>
                 <Route path="/architecture" element={<Architecturepage/>}/>
                 <Route path="/learn" element={<Learnpage/>}/>
+                <Route path="/add-tools" element={<Addtoolspage/>}/>
+                <Route path="/news" element={<Newspage/>}/>
+                <Route path="*" element={<Error404page/>}/>
             </Route>
         </Routes>
     );

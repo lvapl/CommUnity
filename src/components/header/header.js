@@ -32,22 +32,9 @@ function Header() {
                                 <NavDropdown.Item><NavLink className="nav-link" to="/films">Фильмы</NavLink></NavDropdown.Item>
                                 <NavDropdown.Item><NavLink className="nav-link" to="/architecture">Архитектура</NavLink></NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown
-                                className="nav-link"
-                                menuVariant="dark"
-                                title="Доп. инструменты"
-                                id={`offcanvasNavbarDropdown-expand-xxl`}
-                            >
-                                <NavDropdown.Item>Action</NavDropdown.Item>
-                                <NavDropdown.Item>
-                                    Another action
-                                </NavDropdown.Item>
-                                <NavDropdown.Item>
-                                    Something else here
-                                </NavDropdown.Item>
-                            </NavDropdown>
+                            <Nav.Link><NavLink className="nav-link" to="/add-tools">Доп. инструменты</NavLink></Nav.Link>
                             <Nav.Link><NavLink className="nav-link" to="/learn">Обучение</NavLink></Nav.Link>
-                            <Nav.Link>Новости</Nav.Link>
+                            <Nav.Link><NavLink className="nav-link" to="/news">Новости</NavLink></Nav.Link>
                         </Nav>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>

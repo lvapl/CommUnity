@@ -1,0 +1,33 @@
+.error-404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
+}
+
+@media screen and (min-width: 500px){
+    .warning {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .warning {
+        width: 50%;
+    }
+}
+
+.error-404-caption {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+.error-404-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

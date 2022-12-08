@@ -25,7 +25,7 @@
     justify-content: center;
 }
 
-.news-card:hover {
+.game-card:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);

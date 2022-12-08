@@ -22,9 +22,9 @@ function Gamepage () {
                 <div className="games-caption">Игры сделанные на Unity</div>
                 <div className="games-cards">
                     <NewsCard className="game-card" link={tarkov} caption="Escape from Tarkov" description=""/>
-                    <NewsCard link={subnautica} caption="Subnautica" description=""/>
-                    <NewsCard link={ori} caption="Ori and The Blind Forest" description=""/>
-                    <NewsCard link={vrising} caption="V Rising" description=""/>
+                    <NewsCard className="game-card" link={subnautica} caption="Subnautica" description=""/>
+                    <NewsCard className="game-card" link={ori} caption="Ori and The Blind Forest" description=""/>
+                    <NewsCard className="game-card" link={vrising} caption="V Rising" description=""/>
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@ function Layout () {
     return(
         <div className="app">
             <Header/>
-                <Outlet/>
+            <Outlet/>
             <Footer/>
         </div>
     );
