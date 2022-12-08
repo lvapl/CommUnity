@@ -8,4 +8,22 @@
     display: flex;
     flex-direction: column;
     width: 64%;
+    margin: 4%;
+}
+
+.news-caption {
+    font-size: 200%;
+    font-weight: 700;
+}
+
+hr {
+    margin: 2% 0;
+    border-width: 2px;
+}
+
+.news-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 64%;
 }

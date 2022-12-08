@@ -18,7 +18,7 @@
     position: absolute;
     align-items: end;
     left: 2%;
-    bottom: 2%;
+    bottom: 4%;
 }
 
 .news-card-preview-text-container {
@@ -29,4 +29,5 @@
 .news-card-preview-caption {
     font-size: 200%;
     font-weight: 700;
+    margin-bottom: 2%;
 }
