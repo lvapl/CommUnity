@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     width: 64%;
-    margin: 4%;
+    margin: 4% 0;
 }
 
 .news-caption {
@@ -26,4 +26,6 @@ hr {
     flex-direction: row;
     flex-wrap: wrap;
     width: 64%;
+    align-items: stretch;
+    margin-bottom: 2%;
 }
