@@ -1,9 +1,8 @@
 import "./news-card-preview.css";
-import {Link} from "react-router-dom";
 
 function NewsCardPreview ({image, caption, description, link}) {
     return(
-        <Link className="news-card-preview" to={link}>
+        <a className="news-card-preview" href={link}>
             <div className="news-card-preview-image-container">
                 <img src={image} alt="" className="news-card-preview-image"/>
             </div>
@@ -13,7 +12,7 @@ function NewsCardPreview ({image, caption, description, link}) {
                     <div className="news-card-preview-description">{description}</div>
                 </div>
             </div>
-        </Link>
+        </a>
     );
 }
 

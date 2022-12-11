@@ -24,11 +24,11 @@ function Architecturepage () {
                 <div className="solutions-caption">РЕШЕНИЯ ОТ UNITY</div>
                 <div className="solutions-cards">
                     <Card caption="Unity Reflect" description="Набор продуктов, который поможет вам сделать данные BIM доступнее для всех участников на всех этапах проектирования и строительства в единой иммерсивной платформе реального времени."
-                          buttonName="Подробнее"/>
+                          buttonName="Подробнее" className="a" link="https://unity.com/products/unity-reflect-develop"/>
                     <Card caption="VisualLive" description="VisualLive позволяет визуализировать масштабные проекты BIM и CAD прямо на строительной площадке с использованием технологии дополненной реальности, что позволяет строителям-профессионалам работать совместно в режиме реального времени."
-                          buttonName="Подробнее"/>
+                          buttonName="Подробнее" className="a" link="https://unity.com/products/visuallive"/>
                     <Card caption="Unity Industrial Collection" description="Эта коллекция предлагает лучшее в своем классе ПО и техническую поддержку для импорта, оптимизации и визуализации трехмерных данных в Unity. Создавайте и развертывайте 3D-, AR- и VR-приложения для нужных вам платформ."
-                          buttonName="Подробнее"/>
+                          buttonName="Подробнее" className="a" link="https://unity.com/products/unity-industrial-collection"/>
                 </div>
             </div>
         </div>

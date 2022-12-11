@@ -1,4 +1,6 @@
-.card {
+.card,
+.card:active,
+.card:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -10,10 +12,10 @@
     margin: 5% 1%;
     transition: all 0.3s ease;
     flex: 1;
+    color: black;
 }
 
 .card:hover {
-    -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
 }

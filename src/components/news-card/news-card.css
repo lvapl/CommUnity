@@ -12,12 +12,27 @@
     transition: all 0.3s ease;
     overflow: hidden;
     flex-shrink: 1;
-    flex-grow: 1;
+}
+
+.news-card {
+    width: 50%;
 }
 
 .news-card:hover {
     -ms-transform: scale(1.05);
     transform: scale(1.05);
+}
+
+.news-card a,
+.news-card a:active,
+.news-card a:hover {
+    color: black;
+}
+
+.news-card-micro a,
+.news-card-micro a:active,
+.news-card-micro a:hover {
+    color: black;
 }
 
 .news-card-micro-image-container {
