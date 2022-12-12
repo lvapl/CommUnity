@@ -1,11 +1,15 @@
 import "./footer.css"
-import {Link} from "react-router-dom";
 
 function Footer () {
     return(
         <footer className="footer">
             <div className="inner-footer">
-                <Link className="footer-user-agreements" to="">Пользовательские соглашения</Link>
+                <div className="inner-footer-contacts">
+                    <div className="developer">Разработчик:</div>
+                    <div className="developer-name">Дронтусов Виктор Евгеньевич</div>
+                    <div className="git">GitHub:</div>
+                    <a className="git-link" href="https://github.com/lvapl">https://github.com/lvapl</a>
+                </div>
                 <div className="footer-copyright">CommUnity 2022</div>
             </div>
         </footer>

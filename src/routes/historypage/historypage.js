@@ -10,7 +10,7 @@ import MiniBlockNews from "../../components/mini-block-news/mini-block-news";
 function Historypage () {
     return(
         <div className="historypage">
-            <Preview preview={preview} caption="" description=""/>
+            <Preview preview={preview} caption="История движка Unity" description="Одна из самых популярных в мире платформа разработки для создания многоплатформенных 2D- и 3D-игр и интерактивного контента."/>
             <TextImageBlock positionImage="left" caption="Начало пути" description="Первая версия Unity появилась в 2005 году, когда игровой движок был анонсирован на Worldwide Developers Conference. Целью было создание доступного любительского движка с удобным графическим интерфейсом. Изначально Unity работал только под macOS, однако уже в августе 2005 в версии 1.1 появилась возможность сборки игр под Windows и поддержка плагинов C/C++."
                             link={image1}/>
             <TextImageBlock positionImage="right" caption="Вторая версия движка" description="В октябре 2007 команда разработчиков выпустила вторую версию движка. Основные изменения — добавление полноценной среды разработки под Windows (в версии 2.5, март 2008) , улучшенный веб-плеер,  а так же увеличение скорости работы на 30%. Ещё были введены новые технологии (поддержка веб-стриминга, мягких теней реального времени) и полностью переработан GUI."
